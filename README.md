@@ -40,5 +40,5 @@ This project is part of my web development learning journey. It showcases **inte
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/intermediate-web-project.git
+git clone https://github.com/RAMANADAM-VENKATA-SIVA-SAI/web-page-task-3/
 cd intermediate-web-project
