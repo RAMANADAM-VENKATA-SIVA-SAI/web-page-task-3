@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Advanced Web Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Advanced Web Project</h1>
+  </header>
+
+  <!-- Quiz Section -->
+  <section class="card">
+    <h2>Quick Quiz</h2>
+    <p id="question">What is 2 + 2?</p>
+    <div class="answers">
+      <button onclick="checkAnswer(3)">3</button>
+      <button onclick="checkAnswer(4)">4</button>
+      <button onclick="checkAnswer(5)">5</button>
+    </div>
+    <p id="quiz-result"></p>
+  </section>
+
+  <!-- API Section -->
+  <section class="card">
+    <h2>Need a Laugh?</h2>
+    <button onclick="loadJoke()">Get a Joke</button>
+    <p id="joke"></p>
+  </section>
+
+</body>
+<script src="script.js"></script>
+</html>
